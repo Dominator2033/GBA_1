@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_bg1"
+    android:fitsSystemWindows="true"
+
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/android_weather_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        android:fontFamily="@font/rob"
+        android:layout_marginTop="@dimen/border"
+        android:layout_centerHorizontal="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:fontFamily="@font/rob"
+
+        android:layout_below="@id/android_weather_app"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/border"
+        android:fontFamily="@font/rob"
+        android:text="@string/degrees"
+        android:textSize="@dimen/text_size_for_degree" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/temp"
+        app:srcCompat="@drawable/umb"
+        android:layout_marginStart="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/rain_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_weather"
+        android:fontFamily="@font/rob"
+
+        android:layout_above="@id/temp"
+        android:layout_alignEnd="@id/temp"
+        android:layout_marginEnd="@dimen/textSize"
+        android:textSize="@dimen/text_for_type_weather"/>
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/degrees_for_day"
+        android:fontFamily="@font/rob"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/rain_id"
+        android:layout_marginTop="@dimen/border_for_day_degrees"
+        android:layout_marginEnd="@dimen/border_for_day_degrees"
+        android:textSize="@dimen/text_size_for_days_degre"/>
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/day"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@id/day"
+        android:layout_marginEnd="@dimen/border_for_day_degrees"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/night"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/degrees_for_night"
+        android:textSize="@dimen/text_size_for_days_degre"
+        android:fontFamily="@font/rob"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/border_for_day_degrees"
+        android:layout_below="@+id/day"/>
+
+</RelativeLayout>

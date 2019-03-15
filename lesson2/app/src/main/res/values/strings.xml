@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lesson_2</string>
+    <string name="weather_logo">ANDROID WEATHER APP</string>
+    <string name="by">by 13_TEAM</string>
+    <string name="city">MOSCOW</string>
+    <string name="date">Mon, 16:00</string>
+    <string name="degrees">12°</string>
+    <string name="type_weather">Rain</string>
+    <string name="degrees_for_day">28°C</string>
+    <string name="degrees_for_night">20°C</string>
+</resources>
