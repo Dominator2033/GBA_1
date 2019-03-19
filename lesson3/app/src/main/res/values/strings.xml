@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SecondActivity</string>
+    <string name="activity_main">Activity Main!</string>
+    <string name="activity_second">Activity Second!</string>
+    <string name="to_second">Second</string>
+    <string name="to_back">Back</string>
+    <string name="date">Mon, 16:00</string>
+    <string name="degrees">12°</string>
+    <string name="degrees_for_day">28°C</string>
+    <string name="degrees_for_night">20°C</string>
+    <string name="speed_wind">15 м/с Скорость ветра</string>
+    <string name="wetness">Влажность - 78%</string>
+    <string name="city">Город...</string>
+    <string name="send_btn">+</string>
+    <string name="wetness1">Влажность</string>
+    <string name="speed">Скорость ветра</string>
+    <string name="show_temp">Показать температуру</string>
+</resources>
