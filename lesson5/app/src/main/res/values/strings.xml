@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Погодное приложение</string>
+    <string name="degrees">18°</string>
+    <string name="degrees_for_day">28°C</string>
+    <string name="degrees_for_night">20°C</string>
+    <string name="speed_wind">15 м/с Скорость ветра</string>
+    <string name="wetness">Влажность - 78%</string>
+    <string name="city">Город...</string>
+    <string name="send_btn">+</string>
+    <string name="wetness1">Влажность</string>
+    <string name="speed">Скорость ветра</string>
+    <string name="show_temp">Показать температуру</string>
+    <string name="sun">Солнце</string>
+    <string name="rain">Дождь</string>
+
+    <string name="attention">Внимание!</string>
+    <string name="fill_field">Заполните поле город!</string>
+
+    <string name="wetness_show">wetness</string>
+    <string name="temp_show">temp</string>
+    <string name="rain_show">rain</string>
+    <string name="sun_show">sun</string>
+    <string name="wind_show">wind</string>
+    <string name="city_show">city</string>
+</resources>

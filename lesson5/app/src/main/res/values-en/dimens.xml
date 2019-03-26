@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border">20dp</dimen>
+    <dimen name="text_size_for_degree">130sp</dimen>
+    <dimen name="text_size_for_days_degre">50sp</dimen>
+    <dimen name="text_for_switch">25sp</dimen>
+    <dimen name="topHeight">100dp</dimen>
+
+</resources>

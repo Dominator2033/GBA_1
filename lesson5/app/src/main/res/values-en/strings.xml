@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="degrees">18°</string>
+    <string name="degrees_for_day">28°C</string>
+    <string name="degrees_for_night">20°C</string>
+    <string name="speed_wind">15 м/s Wind speed</string>
+    <string name="wetness">Wetness - 78%</string>
+    <string name="city">City...</string>
+    <string name="send_btn">+</string>
+    <string name="wetness1">Wetness</string>
+    <string name="speed">Wind speed</string>
+    <string name="show_temp">Show temperature</string>
+    <string name="sun">Sun</string>
+    <string name="rain">Rain</string>
+    <string name="wetness_show">wetness</string>
+    <string name="temp_show">temp</string>
+    <string name="rain_show">rain</string>
+    <string name="sun_show">sun</string>
+    <string name="wind_show">wind</string>
+    <string name="attention">Attention</string>
+    <string name="fill_field">Please, fill field</string>
+    <string name="city_show">city</string>
+</resources>
